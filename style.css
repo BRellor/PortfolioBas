@@ -5,6 +5,10 @@ body {
   overflow-y: scroll;
 }
 
+a {
+  text-decoration: none;
+}
+
 nav {
   background-color: white;
 }
@@ -53,6 +57,10 @@ nav ul li {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.item1:active {
+  height: 50vw;
 }
 
 .item2 {
